@@ -1,0 +1,23 @@
+/* PRACTICTING SQL FROM CODDEX*/
+
+-- Write code below 💖
+/* SELECT DISTINCT *
+FROM restaurants; */
+
+/*SELECT  DISTINCT name
+FROM restaurants;*/
+
+/*SELECT *
+FROM restaurants
+WHERE cuisine IN ('Chinese', 'Italian'); */
+
+/*SELECT * 
+FROM restaurants
+WHERE neighborhood = 'Greenpoint'; */
+
+ /* SELECT *
+FROM restaurants
+WHERE price = '$' OR price = '$$$$'; */
+
+*/  END CHAPTER 1 */
+
