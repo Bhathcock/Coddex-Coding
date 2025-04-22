@@ -1,0 +1,46 @@
+-- Write code below 💖
+--USING MIN AND MAX
+
+/* SELECT MIN(plays)
+FROM playlist; */
+
+/* SELECT title, artist, MAX(plays)
+FROM playlist; */
+
+/* SELECT title, artist, MIN(year)
+FROM playlist; */
+
+/* SELECT title, artist, MAX(year)
+FROM playlist; */
+
+-- SUM FUNCTION
+
+ /* SELECT SUM(plays)
+FROM playlist; */
+
+/* SELECT SUM(duration)
+FROM playlist; */
+
+-- Write code below 💖
+--AVG Function
+
+/* SELECT AVG(plays)
+FROM playlist; */
+
+/* SELECT AVG(duration)
+FROM playlist; */
+
+-- Write code below 💖
+-- GROUP BY-
+/* SELECT genre, COUNT (*)
+FROM playlist
+GROUP BY genre; */
+
+/* SELECT genre, AVG(duration)
+FROM playlist
+GROUP BY genre; */
+
+/* SELECT artist, AVG(plays)
+FROM playlist
+GROUP BY artist; */
+
