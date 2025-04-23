@@ -1,1 +1,97 @@
+-- Write code below 💖
+---CRREATE TABLES--
+
+/* CREATE TABLE companies (
+  id INTEGER,
+  name TEXT,
+  heaquarters TEXT,
+  year INTEGER
+); */
+
+/* SELECT *
+FROM companies; */
+
+
+-- Write code below 💖
+
+/* CREATE TABLE companies (
+  id INTEGER,
+  name TEXT,
+  heaquarters TEXT,
+  year INTEGER
+); */
+
+--INSERT INTO--
+/* INSERT INTO companies (id, name, headquarters, year)
+VALUES (1, 'Twitter', 'San Francisco', 2006);  */ 
+
+/* INSERT INTO companies (id, name, headquarters, year)
+VALUES (1, 'Twitter', 'San Francisco 🌁', 2006);
+
+INSERT INTO companies (id, name, headquarters, year)
+VALUES (2, 'Duolingo', 'Pittsburgh 🐝', 2011);
+
+INSERT INTO companies (id, name, headquarters, year)
+VALUES (3, 'BeReal', 'Paris 🇫🇷', 2020);
+
+INSERT INTO companies (id, name, headquarters, year)
+VALUES (4, 'Codedex', 'New York 🗽', 2022); 
+
+INSERT INTO companies (id, name, headquarters, year)
+VALUES (5, 'Google', 'California', 2025);
+
+INSERT INTO companies (id, name, headquarters, year)
+VALUES (6, 'Tesla', 'Texas', 2025); */
+
+SELECT * FROM companies;
+
+
+-- Write code below 💖
+/*ALTER TABLE companies
+ADD COLUMN about TEXT; */
+
+ALTER TABLE companies
+ADD COLUMN website TEXT;
+
+SELECT *
+FROM companies;
+
+-- Write code below 💖
+--UPDATE--
+
+UPDATE companies
+SET name = 'X'
+WHERE name = 'Twitter';
+
+UPDATE companies
+SET headquarters = 'Brooklyn 🌉'
+WHERE id = 4;
+
+UPDATE companies
+SET website = 'x.com'
+WHERE id = 1;
+
+UPDATE companies
+SET website = 'duolingo.com'
+WHERE id = 2;
+
+UPDATE companies
+SET website = 'bereal.com'
+WHERE id = 3;
+
+UPDATE companies
+SET website = 'codedex.io'
+WHERE id = 4;
+
+SELECT * 
+FROM companies;
+
+-- Write code below 💖
+--DELETE FROM--
+
+DELETE FROM companies
+WHERE name = 'BeReal';
+
+SELECT *
+FROM companies;
 
